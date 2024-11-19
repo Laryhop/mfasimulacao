@@ -4,6 +4,10 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+st.markdown(
+    "<h1 style='text-align: center; color: navy;'>Simulação de Autenticação Multifator</h1>",
+    unsafe_allow_html=True,
+)
 
 if "usuarios" not in st.session_state:
     st.session_state.usuarios = {}  
