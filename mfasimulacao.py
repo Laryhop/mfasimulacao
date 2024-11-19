@@ -5,11 +5,11 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 
-credenciais = {"usuario": "admin", "senha": "1234"}
+credenciais = {"usuario": "hugo", "senha": "1234"}
 tentativas_max = 3
 tentativas = st.session_state.get('tentativas', 0)
 codigo_mfa = st.session_state.get('codigo_mfa', None)
-email_usuario = "larymarquesp@gmail.com"
+email_usuario = "adolfohugosilvadev@gmail.com"
 
 
                                                 # enviar e-mail com o código MFA
