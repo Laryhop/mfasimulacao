@@ -15,7 +15,7 @@ email_usuario = "larymarquesp@gmail.com"
                                                 # enviar e-mail com o código MFA
 def enviar_email_codigo(email, codigo):
     remetente = "mfacodigo@gmail.com"
-    senha_remetente = "ilre jrto xudf opxf"
+    senha_remetente = ""
     try:
         servidor = smtplib.SMTP("smtp.gmail.com", 587)
         servidor.starttls()
